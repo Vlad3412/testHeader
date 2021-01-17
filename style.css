@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 700px;
+    background: #F1F1F1;
+    padding-top: 46px;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.logo::after {
+    position: absolute;
+    bottom: -4px;
+    right: -12px;
+
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #FDA300;
+    border-radius: 50%;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 50px;
+}
+
+.nav__link.active {
+    color: #606060;
+}
+
+.header .container {
+    height: 100%;
+    position: relative;
+}
+
+.header-content {
+    margin-top: 200px;
+    max-width: 500px;
+    color: #000000;
+    
+}
+
+.header-contentt h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 1.5;
+}
+
+.header-contentt p {
+    font-size: 14px;
+    line-height: 2;
+}
+
+.header-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.skill {
+    margin-top: 90px;
+    max-width: 370px;
+}
+
+.skill-img {
+    margin-bottom: 30px;
+}
+
+.skill-header {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.skill p {
+font-size: 14px;
+line-height: 2;
+}
